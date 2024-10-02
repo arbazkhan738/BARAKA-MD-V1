@@ -1,14 +1,14 @@
 
 {
-  "name":"BARAKA-MD-V1",
-  "description":"Best whatsapp bot developed by Baraka bega+Ibrahim adams",
+  "name":"*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-Khan‌-≛⃞*",
+  "description":"https://wa.me/+917478172267?text=*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-Khan‌-≛⃞*",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/e98ca927f62b4d4e9ba87.jpg",
+  "logo":"https://i.imgur.com/PhcSylV.jpeg",
   "repository":"https://github.com/ibraahadam/BARAKA-MD-V3",
-  "succes_url":"/",
+  "succes_url":"https://chat.whatsapp.com/KINrSyQfA9oFym8blfAsaq",
   "stack":"container",
   "env":{
-    "PREFIX":
+    "PREFIX":"."
     {
       "description":"choose your prefix of bot",
       "value":".",
@@ -22,7 +22,7 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
@@ -30,21 +30,21 @@
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
       "value":"no",
-      "required":false
+      "required":true
     }
     ,
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BARAKA-MD-V1",
-      "required":false
+      "value":"*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-Khan‌-≛⃞*1",
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/e98ca927f62b4d4e9ba87.jpg",
-      "required":false
+      "value":"https://i.imgur.com/PhcSylV.jpeg",
+      "required":yes
        
      },
     "PUBLIC_MODE":
@@ -73,7 +73,7 @@
     "OWNER_NAME":
     {
     
-    "desc": "Your Name",
+    "desc": "*🌸⃝⃪꯭⃮⃕⃔⎯꯭᳝֟፝֟Arbaz-Khan‌-≛⃞*",
     "required": false,
     "value": "Mr baraka"
   },
@@ -81,8 +81,8 @@
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
-    "required":false,
-    "value": "255762190568,255679513639,254710772666"
+    "required":true,
+    "value": "917478172267"
   },
     "WARN_COUNT":
   {
@@ -104,7 +104,7 @@
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
-        "required": false
+        "required": true
   }
   },
 
