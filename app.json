@@ -20,7 +20,7 @@
     "AUTO_STATUS_SEEN": {
       "description": "Enter true for autoview status. false for no",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
@@ -30,12 +30,12 @@
     "AUTO_TYPING": {
       "description": "make it true if you want bot to show typing",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "AUTO_RECORDING": {
       "description": "make it true if you want bot to show recording audio",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "ALWAYS_ONLINE": {
       "description": "make it true if you want bot to show always online",
@@ -55,7 +55,7 @@
     "PREFIX": {
       "description": "Enter your bot prefix eg .,+@#$¶∆×π",
       "required": false,
-      "value": ""
+      "value": "."
     }
     },
     "buildpacks": [
